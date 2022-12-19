@@ -255,7 +255,7 @@ textarea{
 }
 
 .Obsev-cedula{
-    top: 283px;
+    top: 281px;
     width: 800px;
     left: 5px;
 }
@@ -266,7 +266,7 @@ textarea{
 }
 
 #cedula1{
-    margin: 4px 0 0 455px;
+    margin: 0 0 0 455px;
     width: 280px;
     letter-spacing: 18px;
 }
@@ -292,11 +292,13 @@ textarea{
 #colaborador{
     margin: 20px 0 0 20px;
     width: 150px;
+    font-size: 16px;
 }
 
 #director{
     margin: 0 400px 0 60px;
     width: 150px;
+    font-size: 16px;
 }
 
 #organizador{
@@ -312,7 +314,7 @@ textarea{
 #cedula2{
     margin-left: 21px;
     width: 280px;
-    letter-spacing: 17.5px;
+    letter-spacing: 18.5px;
 }
 
 #cc2{
