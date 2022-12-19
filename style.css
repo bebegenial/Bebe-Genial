@@ -52,7 +52,7 @@ input{
 textarea{
     line-height: 1.95em;
     border: none;
-    background-color: transparent;    
+    background-color: transparent;
     font-weight: bold;
 }
 
@@ -235,25 +235,27 @@ textarea{
 
 .obras{
     width: 450px;
-    top: 258px;
+    top: 255px;
 }
 
 #coleccion, #valor{
     margin-right: 10px;
-    /*background-color: transparent;*/
 }
 
 #oCuotas{
-    margin: 24px 90px 0 50px;
+    margin: 0px 90px 0 50px;
     width: 130px;
+    text-align: center;
+    
 }
 
 #oValor{
     width: 120px;
+    text-align: center;
 }
 
 .Obsev-cedula{
-    top: 262px;
+    top: 283px;
     width: 800px;
     left: 5px;
 }
@@ -288,9 +290,8 @@ textarea{
 }
 
 #colaborador{
-    margin: 25px 0 0 20px;
+    margin: 20px 0 0 20px;
     width: 150px;
-    
 }
 
 #director{
@@ -326,7 +327,7 @@ textarea{
 }
 
 .cedula-firma-huella{
-    top: 553px;
+    top: 576px;
     margin-left: 20px;
 }
 
