@@ -1,0 +1,298 @@
+.formulario{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1010px;
+    height: 1466px;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    position: relative;
+    top: 29px;
+    left: 10px;
+    width: 1010px;
+}
+
+
+.inf-pedido{
+    position: absolute;
+    right: 130px;
+}
+
+#pedido, #fecha, #cuenta{
+    position: relative;
+    display: grid;
+    margin: 0 0 10px 0;
+    border: none;
+    height: 17px;
+}
+
+.nombre, .dir-tel-barr, .emp-tel-dir, .car-ant-s-v, .email-ent-fechaC, .nino-ciudad, .code-nombre, .referencias, .obras, .Obsev-cedula, .cedula-firma-huella {
+    position: relative;
+    left: 30px;
+}
+
+input{
+    border: none;
+    /*background-color: transparent;*/
+    font-weight: bold;
+}
+
+textarea{
+    line-height: 1.95em;
+    border: none;
+    background-color: transparent;    
+    font-weight: bold;
+}
+
+.nombre{
+    top: 108px;
+}
+
+#nombre1, #apellido{
+    width: 450px;
+    height: 17px;
+}
+
+
+.dir-tel-barr{
+    top: 123px;
+    height: 17px;
+}
+
+#direccion{
+    width: 450px;
+}
+
+
+#telefono{
+    width: 124px;
+}
+
+#barrio{
+    width: 340px;
+}
+
+.emp-tel-dir{
+    top: 140px;
+}
+
+#empresa{
+    width: 450px;
+}
+
+#telefono2{
+    width: 124px;
+}
+
+#direccion2{
+    width: 340px;
+}
+
+.car-ant-s-v{
+    top: 156px;
+}
+
+#cargo{
+    width: 300px;
+}
+
+#antiguo{
+    width: 141px;
+}
+
+#sueldo{
+    width: 125px;
+}
+
+#propia, #alqui{
+    margin-left: 121px;
+}
+
+.email-ent-fechaC{
+    top: 169px;
+}
+
+#email{
+    width: 512px;
+}
+
+#entrega{
+    margin-left: 53px;
+}
+
+#entrega2{
+    margin-left: 70px;
+}
+
+#fCobro{
+    margin-left: 25px;
+}
+
+.nino-ciudad{
+    top: 185px;
+    margin-left: 70px;
+}
+
+#nNino{
+    width: 627px;
+}
+
+#ciudad{
+    margin-left: 52px;
+}
+
+.code-nombre{
+    top: 214px;
+}
+
+#cNomb{
+    width: 448px;
+}
+
+#cApell{
+    margin-left: 10px;
+    width: 460px;
+}
+
+#cEmpresa{
+    margin: 17px 4px 0 0 ;
+    width: 448px;
+}
+
+#ctele{
+    width: 124px;
+}
+
+#cDir{
+    width: 338px;
+}
+
+#cCargo{    
+    margin: 17px 4px 0 0 ;
+    width: 299px;
+}
+
+#cAntig{
+    width: 138px;
+}
+
+#cSueldo{
+    width: 125px;
+}
+
+#cAuto1, #CAuto2{
+    margin-left: 22px;
+}
+
+#cmarca{
+    margin-left: 5px;
+    width: 71px;
+}
+
+#cModelo, #cPlaca{
+    width: 71px;
+}
+
+.referencias{
+    top: 231px;
+    left: 74px;
+    width: 360px;
+}
+
+#rNomb1, #rNomb2, #rNomb3, #rNomb4{
+    width: 248px;
+    margin-right: 33px;
+}
+
+#r-p-1, #r-p-2, #r-p-3, #r-p-4{
+    width: 65px;
+}
+
+#rTele1, #rTele2, #rTele3, #rTele4{
+    margin: 9px 55px 7px 0 ;
+    width: 148px;
+}
+
+#rTele-res1, #rTele-res2, #rTele-res3, #rTele-res4{
+    width: 145px;
+}
+
+.obras{
+    width: 450px;
+    top: 258px;
+}
+
+#coleccion, #valor{
+    margin-right: 10px;
+    /*background-color: transparent;*/
+}
+
+#oCuotas{
+    margin: 24px 90px 0 50px;
+    width: 130px;
+}
+
+#oValor{
+    width: 120px;
+}
+
+.Obsev-cedula{
+    top: 295px;
+    width: 800px;
+}
+
+#cedula1{
+    margin: 7px 0 0 435px;
+    width: 280px;
+    letter-spacing: 17px;
+}
+
+#relacionista{
+    margin-left: 108px;
+    width: 290px;
+    display: block;
+}
+
+#colaborador{
+    margin-top: 30px;
+    width: 180px;
+}
+
+#director{
+    margin: 0 400px 0 20px;
+}
+
+#organizador{
+    margin: 13px 0 0 70px;
+    width: 110px;
+}
+
+#rematador{
+    margin-left: 90px;
+    width: 120px;
+}
+
+#cedula2{
+    margin-left: 27px;
+    width: 280px;
+    letter-spacing: 18px;
+}
+
+.cedula-firma-huella{
+    top: 590px;
+    margin-left: 20px;
+}
+
+#cedula3{
+    letter-spacing: 5px;
+    width: 300px;
+}
+
+#cedula4{
+    margin-left: 190px;
+    letter-spacing: 5px;
+    width: 300px;
+}
