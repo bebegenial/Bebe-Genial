@@ -64,9 +64,8 @@ const formulario = document.getElementById(".formulario");
 
 function ejecFunc(){
     if(validarCampos()===true){
-        alert(validarCampos());
         guardarPdf();
-        enviarFormulario();
+        //enviarFormulario();
     }else{
         alert("Debes llenar todos los campos requeridos")
     }
@@ -142,9 +141,9 @@ function guardarPdf(){
     window.print();
 
     $botonGuardar.style.visibility = "visible";
-    $pedido.style.background = "white";
-    $fecha.style.background = "white";
-    $cuenta.style.background = "white";
+    $pedido.style.background = "rgb(216, 216, 216)";
+    $fecha.style.background = "rgb(216, 216, 216)";
+    $cuenta.style.background = "rgb(216, 216, 216)";
     $nombre1.style.background = "white";
     $apellido.style.background = "white";
     $direccion.style.background = "white";

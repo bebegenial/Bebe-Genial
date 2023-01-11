@@ -24,6 +24,7 @@ form{
 }
 
 #pedido, #fecha, #cuenta{
+    background-color: rgb(216, 216, 216);
     position: relative;
     display: grid;
     margin: 0 0 10px 0;
