@@ -2,8 +2,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1010px;
-    height: 1466px;
+    min-width: 1010px;
+    max-width: 1010px;
+    min-height: 1466px;
+    max-height: 1466px;
     margin: 0;
     padding: 0;
     background-image: url(imagenes/formulario.JPG);
