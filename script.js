@@ -68,6 +68,7 @@ function ejecFunc(){
         //enviarFormulario();
     }else{
         alert("Debes llenar todos los campos requeridos")
+        resaltarCampos();
     }
 }
 $botonGuardar.onclick = ejecFunc;
@@ -281,9 +282,51 @@ function enviarFormulario(){
 }
 
 function validarCampos(){
-    if($pedido.value.length === 0 || $nombre1.value.length === 0 || apellido.value.length === 0 || $direccion.value.length === 0 || telefono.value.length === 0 || $email.value.length === 0 || $ciudad.value.length === 0 || $cedula1.value.length === 0 || $relacionista.value.length === 0 || $colaborador.value.length === 0){
+    if($pedido.value.length === 0 || $nombre1.value.length === 0 || $apellido.value.length === 0 || $direccion.value.length === 0 || $telefono.value.length === 0 || $email.value.length === 0 || $ciudad.value.length === 0 || $cedula1.value.length === 0 || $relacionista.value.length === 0 || $colaborador.value.length === 0){
         return false;
     }else{
         return true;
+    }
+}
+
+function resaltarCampos(){
+    if($pedido.value.length === 0){
+        $pedido.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($nombre1.value.length === 0){
+        $nombre1.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($apellido.value.length === 0){
+        $apellido.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($direccion.value.length === 0){
+        $direccion.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($telefono.value.length === 0){
+        $telefono.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($email.value.length === 0){
+        $email.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($ciudad.value.length === 0){
+        $ciudad.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($cedula1.value.length === 0){
+        $cedula1.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($relacionista.value.length === 0){
+        $relacionista.style.background = "rgb(255, 209, 209)";
+    }
+
+    if($colaborador.value.length === 0){
+        $colaborador.style.background = "rgb(255, 209, 209)";
     }
 }
