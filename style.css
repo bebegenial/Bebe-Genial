@@ -1,4 +1,5 @@
 body{
+    position: absolute;
     min-width: 1010px;
     max-width: 1010px;
     min-height: 1466px;
@@ -18,22 +19,24 @@ img, .formularioDigital{
     /*background-image: url(imagenes/formulario.JPG);*/
 }
 
-form{
+form, .formulario{
     position: relative;
     top: 37px;
     left: 19px;
-    min-width: 1010px;
-    max-width: 1010px;
+    min-width: 970px;
+    max-width: 970px;
     /*width: 1010px;*/
-    min-height: 1266px;
-    max-height: 1266px;
+    min-height: 1420px;
+    max-height: 1420px;
     /*height: 1266px;*/
+    margin: 0;
+    padding: 0;
 }
 
 
 .inf-pedido{
     position: absolute;
-    right: 100px;
+    right: 140px;
 }
 
 #pedido, #fecha, #cuenta{
@@ -43,6 +46,7 @@ form{
     margin: 0 0 10px 0;
     border: none;
     height: 17px;
+    width: 120px;
     text-align: center;
 }
 
@@ -54,6 +58,7 @@ form{
 .nombre, .dir-tel-barr, .emp-tel-dir, .car-ant-s-v, .email-ent-fechaC, .nino-ciudad, .code-nombre, .referencias, .obras, .Obsev-cedula, .cedula-firma-huella {
     position: relative;
     left: 30px;
+    max-width: 940px;
 }
 
 input{
