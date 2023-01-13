@@ -1,4 +1,4 @@
-body{
+html, body{
     position: absolute;
     min-width: 1010px;
     max-width: 1010px;
@@ -165,6 +165,7 @@ textarea{
 .nino-ciudad{
     top: 188px;
     margin-left: 70px;
+    max-width: 870px;
 }
 
 #nNino{
@@ -370,6 +371,7 @@ textarea{
 .cedula-firma-huella{
     top: 582px;
     margin-left: 20px;
+    max-width: 900px;
 }
 
 #cedula3{
@@ -393,18 +395,4 @@ textarea{
     margin-left: 65px;
     letter-spacing: 5px;
     width: 300px;
-}
-
-@media screen and (width < 1010px) {
-    .formularioDigital{
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-width: 1010px;
-        max-width: 1010px;
-        min-height: 1466px;
-        max-height: 1466px;
-        margin: 0;
-        padding: 0;
-    }
 }
